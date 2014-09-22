@@ -14,39 +14,21 @@
     <link href="${request.static_url('cms:static/css/style.css')}" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="wrap">
     <div id="header">
-        <a href="/"><img src="${request.static_url('cms:static/img/logo.png')}" border="0" /></a>
+        <a href="/" class="logo"></a>
+        <div class="clr"></div>
     </div>
-    <div id="nav">
-        <a href="/">Home</a> |
-        <a href="/about/">About</a> |
-        <a href="/credits/">Credits</a> |
-        <a href="/contact/">Contact</a>
+    <div class="push"></div><!--/PUSH-->
+    <div id="submenu">
+        <a href="/">Home</a>
+        <span tal:repeat="cat view.get_top_nav">
+            <a href="/content/list/${cat.uuid}/">| ${cat.title}</a>
+        </span>
     </div>
-
 
     <div id="content">
-
-        <div metal:define-slot="content">
-        </div>
-
-
-        <div metal:define-slot="menu">
-          <div id="menu">
-              <a href="/">Home</a>
-              <a href="/about/">About</a>
-              <a href="/credits/">Credits</a>
-              <a href="/contact/">Contact</a>
-          </div>
-        </div>
-
+        <div metal:define-slot="content"></div>
     </div>
-
-    <div id="footer">
-        <span>&copy; Unicef 2014</span>
-    </div>
-
-</div>
+    <div id="base"><img src="/static/img/base.jpg" /></div><!--/BASE-->
 </body>
 </html>

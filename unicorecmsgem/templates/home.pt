@@ -1,11 +1,31 @@
 <div metal:use-macro="view.global_template">
     <div metal:fill-slot="content">
-      <div id="banner"><img src="/static/img/kids.jpg"></div>
-      <div class="h1" tal:repeat="cat categories">
-            <a href="/content/list/${cat.uuid}/"><img src="/static/img/icon-${cat.slug}.jpg">
-              ${cat.title}
-            </a>
-            <div class="clear"></div>
+        <div id="banner"><a href="/declaration/"><img src="/static/img/banner.png" /></a></div>
+        <div class="articles" tal:repeat="cat view.get_categories()">
+            <div class="h1">
+                <a href="/content/list/${cat.uuid}/">${cat.title}</a>
+            </div>
         </div>
+
+        <div class="declaration">
+            <div class="h1"><a href="/declaration/">The Girl Declaration</a></div>
+            <div class="listing">
+                <a href="/declaration/"><img src="/static/img/avatar.png" /></a>
+                <div class="h2"><a href="/declaration/">Read It Now.</a></div>
+                <p>And share it with other girls</p>
+                <div class="clr"></div>
+            </div>
+        </div><!--/declaration-->
+
+        <div class="what">
+            <div class="h1"><a href="/about/">What Is The Girl Effect</a></div>
+            <div class="listing">
+                <a href="/about/"><img src="/static/img/avatar.png" /></a>
+                <div class="h2"><a href="/about/">Title of story is placed here</a></div>
+                <p>Sub-heading comes here</p>
+                <div class="clr"></div>
+            </div>
+            <div class="pagination"><a href="/contact/" class="contact">Contact</a> l <a href="/terms/" class="terms">Terms &amp; Conditions</a></div>
+        </div><!--/what-->
     </div>
 </div>
