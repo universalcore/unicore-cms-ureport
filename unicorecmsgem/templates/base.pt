@@ -22,7 +22,7 @@
     <div id="submenu">
         <a href="/">Home</a>
         <span tal:repeat="cat view.get_top_nav">
-            <a href="/content/list/${cat.uuid}/">| ${cat.title}</a>
+            l <a href="/content/list/${cat.uuid}/">${cat.title}</a>
         </span>
     </div>
 

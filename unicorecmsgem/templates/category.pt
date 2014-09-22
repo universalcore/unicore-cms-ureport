@@ -1,21 +1,15 @@
 <div metal:use-macro="view.global_template">
-    <div metal:fill-slot="content">
+    <div metal:fill-slot="content" class="articles">
 
-        <div class="object-category-list modelbase-category-list">
         <div class="h1">
-            <img src="/static/img/icon-${category.slug}.jpg"/> ${category.title}
-            <div class="clear"></div>
+            ${category.title}
         </div>
 
-        <div class="items">
-            <div class="box">
-                <div class="item" tal:repeat="page pages">
-                    <div class="text">
-                        <a href="/content/detail/${page.uuid}/">${page.title}</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="listing" tal:repeat="page pages">
+            <a href="/content/detail/${page.uuid}/"><img src="/static/img/avatar.png"/></a>
+            <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
+            <p>${page.description}</p>
+            <div class="clr"></div>
         </div>
     </div>
 </div>

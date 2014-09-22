@@ -1,28 +1,18 @@
 <div metal:use-macro="view.global_template">
-    <div metal:fill-slot="content">
+    <div metal:fill-slot="content" class="articles">
 
-        <div class="page section_news object-detail ${page.primary_category.slug}-detail">
-            <div class="h1">
-                <img src="/static/img/icon-${page.primary_category.slug}.jpg"/>
-                <a href="/content/list/${page.primary_category.uuid}/">${page.primary_category.title}</a>
-                <div class="clear"></div>
-            </div>
-            <div class="object-header">
-                <div class="intro">${page.title}</div>
-                <div class="meta"></div>
-            </div>
-
-
-            <div class="object-detail-inclusion diarrhoeapost-detail-inclusion">
-                <div class="detail">
-                    <div class="content">
-                        <a name="jmbo-post"></a>
-                        <div>${structure:page.content}</div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
+        <div class="h1">
+            <a href="/content/list/${page.primary_category.uuid}/">${page.primary_category.title}</a>
         </div>
 
+        <div class="detail">
+            <div class="head">
+                <div class="img"><img src="/static/img/avatar.png"/></div>
+                <div class="meta">${page.created_at.strftime('%d %b %Y')}</div>
+                <div class="h2">${page.title}</div>
+            </div>
+            <div class="clr"></div>
+            <p>${structure:page.content}</p>
+        </div>
     </div>
 </div>
