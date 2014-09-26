@@ -5,6 +5,16 @@
             <div class="h1">
                 <a href="/content/list/${cat.uuid}/">${cat.title}</a>
             </div>
+            <div class="listing" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
+                <a href="/content/detail/${page.uuid}/"><img src="/static/img/avatar.png"/></a>
+                <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
+                <p>${page.description}</p>
+                <div class="clr"></div>
+            </div>
+            <div class="clr"></div>
+            <div class="pagination" tal:condition="view.get_featured_category_pages(cat.uuid)">
+                <a href="/content/list/${cat.uuid}/">More ${cat.title}</a>
+            </div>
         </div>
 
         <div class="declaration">
