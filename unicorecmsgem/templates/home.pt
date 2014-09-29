@@ -1,9 +1,11 @@
-<div metal:use-macro="view.global_template">
+<div metal:use-macro="view.global_template"
+     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+     i18n:domain="unicorecmsgem">
     <div metal:fill-slot="content">
         <div id="banner"><a href="/declaration/"><img src="/static/img/banner.png" /></a></div>
 
         <div class="articles" tal:condition="view.get_featured_pages()">
-            <div class="h1">
+            <div class="h1" i18n:translate="latest">
                 Latest
             </div>
             <div class="listing" tal:repeat="page view.get_featured_pages()">
@@ -27,29 +29,29 @@
             </div>
             <div class="clr"></div>
             <div class="pagination" tal:condition="view.get_featured_category_pages(cat.uuid)">
-                <a href="/content/list/${cat.uuid}/">More ${cat.title}</a>
+                <a href="/content/list/${cat.uuid}/"><span i18n:translate="more">More</span> ${cat.title}</a>
             </div>
         </div>
 
         <div class="declaration">
-            <div class="h1"><a href="/declaration/">The Girl Declaration</a></div>
+            <div class="h1"><a href="/declaration/" i18n:translate="declaration">The Girl Declaration</a></div>
             <div class="listing">
                 <a href="/declaration/"><img src="/static/img/avatar.png" /></a>
-                <div class="h2"><a href="/declaration/">Read It Now.</a></div>
-                <p>And share it with other girls</p>
+                <div class="h2"><a href="/declaration/" i18n:translate="declaration_read_it_now">Read It Now.</a></div>
+                <p i18n:translate="declaration_share_it">And share it with other girls</p>
                 <div class="clr"></div>
             </div>
         </div><!--/declaration-->
 
         <div class="what">
-            <div class="h1"><a href="/about/">What Is The Girl Effect</a></div>
+            <div class="h1"><a href="/about/" i18n:translate="about">What Is The Girl Effect</a></div>
             <div class="listing">
                 <a href="/about/"><img src="/static/img/avatar.png" /></a>
-                <div class="h2"><a href="/about/">Title of story is placed here</a></div>
-                <p>Sub-heading comes here</p>
+                <div class="h2"><a href="/about/" i18n:translate="about_title">Title of story is placed here</a></div>
+                <p i18n:translate="about_sub_heading">Sub-heading comes here</p>
                 <div class="clr"></div>
             </div>
-            <div class="pagination"><a href="/contact/" class="contact">Contact</a> l <a href="/terms/" class="terms">Terms &amp; Conditions</a></div>
+            <div class="pagination"><a href="/contact/" class="contact" i18n:translate="contact">Contact</a> l <a href="/terms/" class="terms" i18n:translate="terms">Terms &amp; Conditions</a></div>
         </div><!--/what-->
     </div>
 </div>

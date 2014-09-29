@@ -30,4 +30,8 @@ setup(name='unicore-cms-gem',
       [paste.app_factory]
       main = unicorecmsgem:main
       """,
+      message_extractors={'.': [
+      ('**.py', 'python', None),
+      ('**.pt', 'chameleon', None),
+      ]},
       )

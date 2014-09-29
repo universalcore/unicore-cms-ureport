@@ -3,7 +3,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:metal="http://xml.zope.org/namespaces/metal"
       xmlns:tal="http://xml.zope.org/namespaces/tal"
-      metal:define-macro="layout">
+      metal:define-macro="layout"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="unicorecmsgem">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ STATIC_URL }}img/favicon.ico" />
@@ -25,7 +27,7 @@
     </div>
     <div class="push"></div><!--/PUSH-->
     <div id="submenu">
-        <a href="/">Home</a>
+        <a href="/" i18n:translate="home">Home</a>
         <span tal:repeat="cat view.get_top_nav">
             l <a href="/content/list/${cat.uuid}/">${cat.title}</a>
         </span>
