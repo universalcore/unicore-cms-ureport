@@ -7,9 +7,8 @@
 
         <div class="detail">
             <div class="head">
-                <div class="img"><img src="/static/img/avatar.png"/></div>
-                <div class="meta">${page.created_at.strftime('%d %b %Y')}</div>
-                <div class="h2">${page.title}</div>
+                <div class="meta no-pic">${page.created_at.strftime('%d %b %Y')}</div>
+                <div class="h2 no-pic">${page.title}</div>
             </div>
             <div class="clr"></div>
             <p>${structure:page.content}</p>

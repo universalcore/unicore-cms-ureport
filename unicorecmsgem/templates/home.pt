@@ -8,21 +8,18 @@
             <div class="h1" i18n:translate="latest">
                 Latest
             </div>
-            <div class="listing" tal:repeat="page view.get_featured_pages()">
-                <a href="/content/detail/${page.uuid}/"><img src="/static/img/avatar.png"/></a>
+            <div class="listing no-pic" tal:repeat="page view.get_featured_pages()">
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
             </div>
-            <div class="clr"></div>
         </div>
 
         <div class="articles" tal:repeat="cat view.get_categories()">
             <div class="h1">
                 <a href="/content/list/${cat.uuid}/">${cat.title}</a>
             </div>
-            <div class="listing" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
-                <a href="/content/detail/${page.uuid}/"><img src="/static/img/avatar.png"/></a>
+            <div class="listing no-pic" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>

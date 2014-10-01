@@ -78,6 +78,7 @@
 				.articles .listing .h2 a { color: #eb178e; }
 				.articles .listing p { margin: 0 0 0 57px; padding: 2px 0 0 0; color: #888888; }
 				.articles .pagination a { font-weight: bold; color: #c71663; }
+				.articles .no-pic .h2, .articles .no-pic p { margin-left: 0; }
 			.articles .detail { padding: 10px; }
 
 		/* Head (used on Articles, Hope City, Stories, etc) */
@@ -86,6 +87,7 @@
 			.head .h2 { margin: 0 0 0 65px; font-size: 20px; line-height: 22px; }
 			.head .img img { width: 45px; float: left; margin: 0 17px 0 0; display: block; }
 			.head .meta { margin: 3px 0 0 65px; }
+			.head .no-pic {margin-left: 0}
 
 		/* Challenge */
 		.challenge { margin: 0 0 3px 0; }

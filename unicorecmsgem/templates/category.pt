@@ -5,8 +5,7 @@
             ${category.title}
         </div>
 
-        <div class="listing" tal:repeat="page pages">
-            <a href="/content/detail/${page.uuid}/"><img src="/static/img/avatar.png"/></a>
+        <div class="listing no-pic" tal:repeat="page pages">
             <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
             <p>${page.description}</p>
             <div class="clr"></div>
