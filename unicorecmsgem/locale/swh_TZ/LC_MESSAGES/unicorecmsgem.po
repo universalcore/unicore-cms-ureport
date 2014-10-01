@@ -1,15 +1,15 @@
 #
-# Language tha translations for PACKAGE package
+# Language swh translations for PACKAGE package
 # This file is distributed under the same license as the PACKAGE package.
 # TonyM <tonym@localhost>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
 "POT-Creation-Date: 2014-10-01 10:29+0200\n"
-"PO-Revision-Date: 2014-09-29 22:20+0200\n"
+"PO-Revision-Date: 2014-10-01 10:27+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
-"Language-Team: Language tha\n"
-"Language: tha_TH\n"
+"Language-Team: Language swh\n"
+"Language: swh_TZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,54 +17,54 @@ msgstr ""
 #. Default: Latest
 #: unicorecmsgem/templates/home.pt:10
 msgid "latest"
-msgstr "Latest in tha_TH"
+msgstr "Latest in Swahili"
 
 #. Default: More
 #: unicorecmsgem/templates/home.pt:55
 msgid "more"
-msgstr "More in tha_TH"
+msgstr "More in Swahili"
 
 #. Default: The Girl Declaration
 #: unicorecmsgem/templates/home.pt:66
 msgid "declaration"
-msgstr "Declaration in tha_TH"
+msgstr "The girl declaration in Swahili"
 
 #. Default: Read It Now.
 #: unicorecmsgem/templates/home.pt:73
 msgid "declaration_read_it_now"
-msgstr "Reat it now in tha_TH"
+msgstr "Reat it now in Swahili"
 
 #. Default: And share it with other girls
 #: unicorecmsgem/templates/home.pt:76
 msgid "declaration_share_it"
-msgstr "And share it in tha_TH"
+msgstr "And share it in Swahili"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:88
 msgid "about"
-msgstr "What is Girl Effect in tha_TH"
+msgstr "What is girl effect in Swahili"
 
 #. Default: Title of story is placed here
 #: unicorecmsgem/templates/home.pt:95
 msgid "about_title"
-msgstr "Title of story in tha_TH"
+msgstr "The title in Swahili"
 
 #. Default: Sub-heading comes here
 #: unicorecmsgem/templates/home.pt:98
 msgid "about_sub_heading"
-msgstr "Sub heading in tha_TH"
+msgstr "And subheading in Swahili"
 
 #. Default: Contact
 #: unicorecmsgem/templates/home.pt:105
 msgid "contact"
-msgstr "Contact in tha_TH"
+msgstr "Contact in Swahili"
 
 #. Default: Terms &amp; Conditions
 #: unicorecmsgem/templates/home.pt:107
 msgid "terms"
-msgstr "Terms in tha_TH"
+msgstr "Terms in Swahili"
 
 #. Default: Home
 #: unicorecmsgem/templates/base.pt:45
 msgid "home"
-msgstr "Home in tha_TH"
+msgstr "Home in Swahili"
