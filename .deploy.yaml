@@ -18,4 +18,5 @@ pip:
  - praekelt-python-gitmodel
 dependencies:
  - python-yaml
+ - libffi-dev
  - cmake
