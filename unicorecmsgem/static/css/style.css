@@ -81,6 +81,11 @@
 				.articles .no-pic .h2, .articles .no-pic p { margin-left: 0; }
 			.articles .detail { padding: 10px; }
 
+		/* Latest */
+		.latest{}
+			.latest .h1{ background: #ff9933; }
+			.latest .listing .h2 a { color: #ff9933; }
+
 		/* Head (used on Articles, Hope City, Stories, etc) */
 
 		.head {}
