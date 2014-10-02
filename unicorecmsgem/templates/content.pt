@@ -11,7 +11,7 @@
                 <div class="h2 no-pic">${page.title}</div>
             </div>
             <div class="clr"></div>
-            <p>${structure:page.content}</p>
+            <p>${structure:content}</p>
         </div>
     </div>
 </div>

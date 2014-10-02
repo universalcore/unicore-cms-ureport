@@ -6,7 +6,7 @@
 
         <div class="detail">
             <div class="clr"></div>
-            <p>${structure:page.content}</p>
+            <p>${structure:content}</p>
         </div>
     </div>
 </div>
