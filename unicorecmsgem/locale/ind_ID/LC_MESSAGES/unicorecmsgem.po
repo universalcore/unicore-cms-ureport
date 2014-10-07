@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-10-01 10:29+0200\n"
+"POT-Creation-Date: 2014-10-06 11:54+0200\n"
 "PO-Revision-Date: 2014-09-29 22:20+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language ind\n"
@@ -16,55 +16,82 @@ msgstr ""
 
 #. Default: Latest
 #: unicorecmsgem/templates/home.pt:10
-msgid "latest"
+#, fuzzy
+msgid "Latest"
 msgstr "Latest in ind_ID"
 
 #. Default: More
 #: unicorecmsgem/templates/home.pt:55
-msgid "more"
-msgstr " More in ind_ID"
+msgid "More"
+msgstr ""
 
 #. Default: The Girl Declaration
 #: unicorecmsgem/templates/home.pt:66
-msgid "declaration"
+#, fuzzy
+msgid "The Girl Declaration"
 msgstr "Declaration in ind_ID"
 
 #. Default: Read It Now.
 #: unicorecmsgem/templates/home.pt:73
-msgid "declaration_read_it_now"
-msgstr "Read it now in ind_ID"
+msgid "Read It Now."
+msgstr ""
 
 #. Default: And share it with other girls
 #: unicorecmsgem/templates/home.pt:76
-msgid "declaration_share_it"
-msgstr "And share it in ind_ID"
+msgid "And share it with other girls"
+msgstr ""
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:88
-msgid "about"
-msgstr "What is the Girl Effect in ind_ID"
+msgid "What Is The Girl Effect"
+msgstr ""
 
 #. Default: Title of story is placed here
 #: unicorecmsgem/templates/home.pt:95
-msgid "about_title"
-msgstr "Title of story in ind_ID"
+msgid "Title of story is placed here"
+msgstr ""
 
 #. Default: Sub-heading comes here
 #: unicorecmsgem/templates/home.pt:98
-msgid "about_sub_heading"
-msgstr "Sub heading in ind_ID"
+msgid "Sub-heading comes here"
+msgstr ""
 
 #. Default: Contact
 #: unicorecmsgem/templates/home.pt:105
-msgid "contact"
+#, fuzzy
+msgid "Contact"
 msgstr "Contact in ind_ID"
 
 #. Default: Terms &amp; Conditions
 #: unicorecmsgem/templates/home.pt:107
-msgid "terms"
-msgstr "Terms in ind_ID"
+msgid "Terms &amp; Conditions"
+msgstr ""
 
 #. Default: Home
-#: unicorecmsgem/templates/base.pt:45
-msgid "home"
-msgstr "Home in ind_ID"
+#: unicorecmsgem/templates/base.pt:49
+msgid "Home"
+msgstr ""
+
+#~ msgid "more"
+#~ msgstr " More in ind_ID"
+
+#~ msgid "declaration_read_it_now"
+#~ msgstr "Read it now in ind_ID"
+
+#~ msgid "declaration_share_it"
+#~ msgstr "And share it in ind_ID"
+
+#~ msgid "about"
+#~ msgstr "What is the Girl Effect in ind_ID"
+
+#~ msgid "about_title"
+#~ msgstr "Title of story in ind_ID"
+
+#~ msgid "about_sub_heading"
+#~ msgstr "Sub heading in ind_ID"
+
+#~ msgid "terms"
+#~ msgstr "Terms in ind_ID"
+
+#~ msgid "home"
+#~ msgstr "Home in ind_ID"
