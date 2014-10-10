@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-10-08 14:30+0200\n"
+"POT-Creation-Date: 2014-10-10 15:06+0200\n"
 "PO-Revision-Date: 2014-09-29 22:20+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language eng\n"
@@ -47,12 +47,12 @@ msgstr ""
 #. Default: Title of story is placed here
 #: unicorecmsgem/templates/home.pt:95
 msgid "Title of story is placed here"
-msgstr ""
+msgstr "Learn more about The Girl Effect"
 
 #. Default: Sub-heading comes here
 #: unicorecmsgem/templates/home.pt:98
 msgid "Sub-heading comes here"
-msgstr ""
+msgstr "And spread the word"
 
 #. Default: Contact
 #: unicorecmsgem/templates/home.pt:105
