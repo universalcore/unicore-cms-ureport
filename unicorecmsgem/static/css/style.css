@@ -140,9 +140,9 @@
 		.declaration .h1 { background: #39c0c0; }
 			.declaration .listing { padding: 10px 44px 10px 10px; }
 				.declaration .listing img { width: 45px; float: left; display: block; }
-				.declaration .listing .h2 { margin: 0 0 0 57px; padding: 0; color: #39c0c0;  }
-				.declaration .listing .h2 a { color: #39c0c0; }
-				.declaration .listing p { margin: 0 0 0 57px; padding: 2px 0 0 0; color: #888888; }
+				.declaration .listing .h2 { margin: 0; padding: 0; color: #39c0c0;  }
+				.declaration .listing .h2 a { color: #39c0c0; padding: 0 0 0 5px;}
+				.declaration .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
 				.declaration .pagination a { font-weight: bold; color: #39c0c0; }
 			.declaration .detail { padding: 10px; }
 
@@ -152,9 +152,9 @@
 		.what .h1 a { color: #000; }
 			.what .listing { padding: 10px 44px 10px 10px; }
 				.what .listing img { width: 45px; float: left; display: block; }
-				.what .listing .h2 { margin: 0 0 0 57px; padding: 0; color: #c4d131;  }
-				.what .listing .h2 a { color: #c4d131; }
-				.what .listing p { margin: 0 0 0 57px; padding: 2px 0 0 0; color: #888888; }
+				.what .listing .h2 { margin: 0; padding: 0; color: #c4d131;  }
+				.what .listing .h2 a { color: #c4d131; padding: 0 0 0 5px;}
+				.what .listing p { margin: 0; padding: 2px 0 0 5px; color: #888888; }
 				.what .pagination { color: #888888; }
 				.what .pagination a { font-weight: bold; color: #20b7ac; }
 			.what .detail { padding: 10px; }
