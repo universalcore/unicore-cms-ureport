@@ -19,8 +19,8 @@
 
 /*  HEADER  */
 
-	#header { width: 100%; height: 73px; background: #39c0c0; position: fixed; z-index: 100000; }
-		#header .logo a { width: 197px; height: 46px; float: left; margin: 5px 6px; display: block;}
+	#header { width: 100%; background: #39c0c0; position: relative; z-index: 100000; }
+		#header .logo a { float: left; margin: 5px 6px; display: block;}
 		#header .drop { display: none; }
 		#header .lang {width: 100%; line-height: 20px; height: 20px; display: block; background: #32a6a6; color: #39c0c0; font-weight: bold;}
 			#header .lang div{float: right;}
@@ -35,7 +35,7 @@
 
 /*  PUSH  */
 
-	.push { height: 73px; display: block; }
+
 
 
 /*  BANNER  */
