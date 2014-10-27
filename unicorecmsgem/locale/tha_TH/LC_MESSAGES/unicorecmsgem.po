@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-10-10 15:06+0200\n"
+"POT-Creation-Date: 2014-10-27 13:04+0200\n"
 "PO-Revision-Date: 2014-09-29 22:20+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language tha\n"
@@ -14,46 +14,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. Default: Latest
+#. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:10
+msgid "What Is The Girl Effect"
+msgstr ""
+
+#. Default: Title of story is placed here
+#: unicorecmsgem/templates/home.pt:17
+msgid "Title of story is placed here"
+msgstr ""
+
+#. Default: Sub-heading comes here
+#: unicorecmsgem/templates/home.pt:20
+msgid "Sub-heading comes here"
+msgstr ""
+
+#. Default: Latest
+#: unicorecmsgem/templates/home.pt:32
 #, fuzzy
 msgid "Latest"
 msgstr "Latest in tha_TH"
 
 #. Default: More
-#: unicorecmsgem/templates/home.pt:55
+#: unicorecmsgem/templates/home.pt:77
 msgid "More"
 msgstr ""
 
 #. Default: The Girl Declaration
-#: unicorecmsgem/templates/home.pt:66
+#: unicorecmsgem/templates/home.pt:88
 #, fuzzy
 msgid "The Girl Declaration"
 msgstr "Declaration in tha_TH"
 
 #. Default: Read It Now.
-#: unicorecmsgem/templates/home.pt:73
+#: unicorecmsgem/templates/home.pt:95
 msgid "Read It Now."
 msgstr ""
 
 #. Default: And share it with other girls
-#: unicorecmsgem/templates/home.pt:76
-msgid "And share it with other girls"
-msgstr ""
-
-#. Default: What Is The Girl Effect
-#: unicorecmsgem/templates/home.pt:88
-msgid "What Is The Girl Effect"
-msgstr ""
-
-#. Default: Title of story is placed here
-#: unicorecmsgem/templates/home.pt:95
-msgid "Title of story is placed here"
-msgstr ""
-
-#. Default: Sub-heading comes here
 #: unicorecmsgem/templates/home.pt:98
-msgid "Sub-heading comes here"
+msgid "And share it with other girls"
 msgstr ""
 
 #. Default: Contact
@@ -73,7 +73,7 @@ msgid "Tips on Use"
 msgstr ""
 
 #. Default: Home
-#: unicorecmsgem/templates/base.pt:49
+#: unicorecmsgem/templates/base.pt:52
 msgid "Home"
 msgstr ""
 
