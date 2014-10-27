@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-27 13:04+0200\n"
-"PO-Revision-Date: 2014-10-27 11:00+0000\n"
+"POT-Creation-Date: 2014-10-27 14:31+0200\n"
+"PO-Revision-Date: 2014-10-27 12:22+0000\n"
 "Last-Translator: miltontony <milton@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: swh_TZ\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1414407653.573978\n"
+"X-POOTLE-MTIME: 1414412541.388941\n"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:10
@@ -25,12 +25,12 @@ msgstr "Girl Effect ni nini?"
 #. Default: Title of story is placed here
 #: unicorecmsgem/templates/home.pt:17
 msgid "Title of story is placed here"
-msgstr "Learn more about The Girl Effect"
+msgstr "Jifundishe zaidi kuhusu Girl Effect"
 
 #. Default: Sub-heading comes here
 #: unicorecmsgem/templates/home.pt:20
 msgid "Sub-heading comes here"
-msgstr "And spread the word"
+msgstr "Halafu eneza neno"
 
 #. Default: Latest
 #: unicorecmsgem/templates/home.pt:32
@@ -65,12 +65,12 @@ msgstr "Kuwasiliana"
 #. Default: Terms &amp; Conditions
 #: unicorecmsgem/templates/home.pt:107
 msgid "Terms &amp; Conditions"
-msgstr ""
+msgstr "Sheria na Masharti"
 
 #. Default: Tips on Use
 #: unicorecmsgem/templates/home.pt:109
 msgid "Tips on Use"
-msgstr ""
+msgstr "Mawaidha ya matumizi"
 
 #. Default: Home
 #: unicorecmsgem/templates/base.pt:52
