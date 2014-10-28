@@ -12,11 +12,7 @@ pip:
  - webtest
  - waitress
  - cornice
- - unicore-gitmodels
- - cffi
- - pygit2
- - praekelt-python-gitmodel
 dependencies:
  - python-yaml
- - libffi-dev
  - cmake
+ - elasticsearch
