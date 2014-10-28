@@ -3,7 +3,7 @@ import os
 
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'requirements.txt'), 'r') as fp:
-    requires = filter(None, f.readlines())
+    requires = filter(None, fp.readlines())
 
 setup(name='unicore-cms-gem',
       version='0.2',
