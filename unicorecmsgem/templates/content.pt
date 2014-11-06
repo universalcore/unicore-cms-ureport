@@ -7,7 +7,7 @@
 
         <div class="detail">
             <div class="head">
-                <div class="meta no-pic">${page.created_at}</div>
+                <div class="meta no-pic">${view.format_date(page.created_at)}</div>
                 <div class="h2 no-pic">${page.title}</div>
             </div>
             <div class="clr"></div>
