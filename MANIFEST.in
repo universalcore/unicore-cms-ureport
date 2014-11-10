@@ -1,2 +1,4 @@
 include requirements.txt
 recursive-include unicorecmsgem *
+recursive-include mappings *
+
