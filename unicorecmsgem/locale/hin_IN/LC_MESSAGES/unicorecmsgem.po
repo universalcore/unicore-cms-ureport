@@ -1,15 +1,15 @@
 #
-# Language eng translations for PACKAGE package
+# Language hin translations for PACKAGE package
 # This file is distributed under the same license as the PACKAGE package.
-# TonyM <tonym@localhost>, 2014.
+# tonym <tonym@tonym-lap>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2014-10-27 14:31+0200\n"
-"PO-Revision-Date: 2014-09-29 22:20+0200\n"
-"Last-Translator: TonyM <tonym@localhost>\n"
-"Language-Team: Language eng\n"
-"Language: eng_UK\n"
+"POT-Creation-Date: 2014-11-19 17:31+0200\n"
+"PO-Revision-Date: 2014-11-19 17:31+0200\n"
+"Last-Translator: tonym <tonym@tonym-lap>\n"
+"Language-Team: Language hin\n"
+"Language: hin_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,12 +22,12 @@ msgstr ""
 #. Default: Title of story is placed here
 #: unicorecmsgem/templates/home.pt:17
 msgid "Title of story is placed here"
-msgstr "Learn more about The Girl Effect"
+msgstr ""
 
 #. Default: Sub-heading comes here
 #: unicorecmsgem/templates/home.pt:20
 msgid "Sub-heading comes here"
-msgstr "And spread the word"
+msgstr ""
 
 #. Default: Latest
 #: unicorecmsgem/templates/home.pt:32
