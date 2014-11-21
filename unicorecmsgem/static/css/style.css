@@ -81,6 +81,7 @@
                 .articles .pagination a { font-weight: bold; color: #c71663; }
                 .articles .no-pic .h2, .articles .no-pic p { margin-left: 0; }
             .articles .detail { padding: 10px; }
+                .articles .detail .no-pic .h2, .articles .no-pic .meta { margin-left: 0; }
                 .articles .detail pre {
                     word-break: break-all; /* webkit */
                     word-wrap: break-word;
