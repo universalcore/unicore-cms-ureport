@@ -287,16 +287,3 @@
         #header a.logo { background: url('../img/logo_x2.png') no-repeat; background-size: 197px 46px; }
 
     }
-
-
-/* Mobile "preview" for large screens */
-
-    @media screen and (min-width: 1024px) { 
-        html {
-            background-color: #333;
-        }
-        body {
-            max-width: 320px;
-            margin: 0 auto;
-        }
-    }
