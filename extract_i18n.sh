@@ -4,7 +4,7 @@ mkdir -p unicorecmsgem/locale
 
 pot-create -o unicorecmsgem/locale/unicorecmsgem.pot unicorecmsgem/
 
-declare -a arr=("eng_GB" "tha_TH" "ind_ID" "swa_TZ" "hin_IN")
+declare -a arr=("eng_GB" "tha_TH" "ind_ID" "swa_TZ" "hin_IN" "fre_FR")
 
 for lang in "${arr[@]}"
 do
