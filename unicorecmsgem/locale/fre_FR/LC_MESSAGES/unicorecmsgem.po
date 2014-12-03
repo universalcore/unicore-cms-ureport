@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-01 09:04+0200\n"
+"POT-Creation-Date: 2014-12-03 08:06+0200\n"
 "PO-Revision-Date: 2014-12-01 07:00+0000\n"
 "Last-Translator: indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,57 +18,57 @@ msgstr ""
 "X-POOTLE-MTIME: 1417417242.579152\n"
 
 #. Default: What Is The Girl Effect
-#: unicorecmsgem/templates/home.pt:10
+#: unicorecmsgem/templates/home.pt:33
 msgid "What Is The Girl Effect"
 msgstr "Qu'est-ce que Girl Effect"
 
 #. Default: Learn more about The Girl Effect
-#: unicorecmsgem/templates/home.pt:17
+#: unicorecmsgem/templates/home.pt:40
 msgid "Learn more about The Girl Effect"
 msgstr "En savoir plus sur Girl Effect"
 
 #. Default: And spread the word
-#: unicorecmsgem/templates/home.pt:20
+#: unicorecmsgem/templates/home.pt:43
 msgid "And spread the word"
 msgstr "Et passer le mot"
 
 #. Default: Latest
-#: unicorecmsgem/templates/home.pt:32
+#: unicorecmsgem/templates/home.pt:55
 msgid "Latest"
 msgstr "Actualités"
 
 #. Default: More
-#: unicorecmsgem/templates/home.pt:77
+#: unicorecmsgem/templates/home.pt:100
 msgid "More"
 msgstr "Plus"
 
 #. Default: The Girl Declaration
-#: unicorecmsgem/templates/home.pt:88
+#: unicorecmsgem/templates/home.pt:111
 msgid "The Girl Declaration"
 msgstr "La déclaration de filles"
 
 #. Default: Read It Now.
-#: unicorecmsgem/templates/home.pt:95
+#: unicorecmsgem/templates/home.pt:118
 msgid "Read It Now."
 msgstr "Lisez-le maintenant."
 
 #. Default: And share it with other girls
-#: unicorecmsgem/templates/home.pt:98
+#: unicorecmsgem/templates/home.pt:121
 msgid "And share it with other girls"
 msgstr "Et partagez-le avec d'autres filles"
 
 #. Default: Contact
-#: unicorecmsgem/templates/home.pt:105
+#: unicorecmsgem/templates/home.pt:128
 msgid "Contact"
 msgstr "Contact"
 
 #. Default: Terms &amp; Conditions
-#: unicorecmsgem/templates/home.pt:107
+#: unicorecmsgem/templates/home.pt:130
 msgid "Terms &amp; Conditions"
 msgstr "Conditions d'utilisation"
 
 #. Default: Tips on Use
-#: unicorecmsgem/templates/home.pt:109
+#: unicorecmsgem/templates/home.pt:132
 msgid "Tips on Use"
 msgstr "Conseils d'utilisation"
 
@@ -77,8 +77,8 @@ msgstr "Conseils d'utilisation"
 msgid "Home"
 msgstr "Accueil"
 
-msgid "Title of story is placed here"
-msgstr "En savoir plus sur Girl Effect"
+#~ msgid "Title of story is placed here"
+#~ msgstr "En savoir plus sur Girl Effect"
 
-msgid "Sub-heading comes here"
-msgstr "Et passer le mot"
+#~ msgid "Sub-heading comes here"
+#~ msgstr "Et passer le mot"
