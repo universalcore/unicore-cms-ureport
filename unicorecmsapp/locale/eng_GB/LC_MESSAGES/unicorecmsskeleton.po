@@ -15,16 +15,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. Default: Latest
-#: unicorecmsskeleton/templates/home.pt:33
+#: unicorecmsapp/templates/home.pt:33
 msgid "Latest"
 msgstr ""
 
 #. Default: More
-#: unicorecmsskeleton/templates/home.pt:78
+#: unicorecmsapp/templates/home.pt:78
 msgid "More"
 msgstr ""
 
 #. Default: Home
-#: unicorecmsskeleton/templates/base.pt:52
+#: unicorecmsapp/templates/base.pt:52
 msgid "Home"
 msgstr ""
