@@ -2,7 +2,7 @@ from datetime import datetime
 from pyramid import testing
 
 from cms.tests.base import UnicoreTestCase
-from unicorecmsgem import main
+from unicorecmsskeleton import main
 from unicore.content.models import Page, Localisation
 from webtest import TestApp
 
@@ -65,20 +65,10 @@ class TestViews(UnicoreTestCase):
             '<a href="/about/">Learn more about The Girl Effect</a>'
             in resp.body)
         self.assertTrue(
-            '<img alt="Welcome to the Girl Effect" '
+            '<img alt="Welcome to the Skeleton" '
             'src="http://some.site.com/VNlJN07VKnfaB6k1imziAts4n0o='
             '/320x0/some-uuid"/>' in
             resp.body)
 
         resp = self.app.get('/?_LOCALE_=eng_UK', status=200)
         self.assertTrue('<a href="/">Home</a>' in resp.body)
-
-        resp = self.app.get('/?_LOCALE_=swa_TZ', status=200)
-        self.assertTrue(
-            '<a href="/about/">Jifundishe zaidi kuhusu Girl Effect</a>'
-            in resp.body)
-
-        resp = self.app.get('/?_LOCALE_=swh_TZ', status=200)
-        self.assertTrue(
-            '<a href="/about/">Jifundishe zaidi kuhusu Girl Effect</a>'
-            in resp.body)
