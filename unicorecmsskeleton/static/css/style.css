@@ -7,9 +7,9 @@
 
 /*  GLOBALS  */
 
-    html, body { margin: 0; padding: 0; background: #fff; font-size: 0.9em; font-family: Arial, Helvetica, sans-serif; line-height: 1.3em; color: #888888; }
+    html, body { margin: 0; padding: 0; background: #fff; font-size: 16px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4em; color: #888888; }
     input, select, textarea { font-size: 95%; font-family: Arial, Helvetica, sans-serif; }
-    a { color: #ea178b; text-decoration: none; }
+    a { color: #000; text-decoration: none; }
     .clr { width: 100%; height: 0px; clear: both; display: block; }
     div#mti_wfs_colophon { display: none!important; }
     .white { background: #fff!important; }
@@ -19,23 +19,19 @@
 
 /*  HEADER  */
 
-    #header { width: 100%; background: #39c0c0; position: relative; z-index: 100000; }
-        #header .logo a { float: left; margin: 5px 6px; display: block;}
+    #header { width: 100%; background: #000; position: relative; z-index: 100000; }
+        #header .logo a { padding: 0 0 2px 0; margin: 7px 18px 3px 18px; display: block;}
+        #header .logo img { width: 140px; }
         #header .drop { display: none; }
-        #header .lang {width: 100%; line-height: 20px; height: 20px; display: block; background: #32a6a6; color: #39c0c0; font-weight: bold;}
-            #header .lang div{float: right;}
-            #header .lang a {color: #124f52;}
+        #header .lang {width: 100%; line-height: 20px; padding: 5px 18px; display: block; background: #fff; color: #000; font-size: 12px; }
+            #header .lang div{text-align: right;}
+            #header .lang a {color: #333;}
 
 
 /*  SUBMENU  */
 
-    #submenu { background: #c4d131; padding: 10px; margin: 3px 0 0 0; color: #8e9822; }
-    #submenu a { font-weight: bold; color: #000; }
-
-
-/*  PUSH  */
-
-
+    #submenu { background: #fff; padding: 10px 18px; margin: 3px 0 0 0; color: #000; }
+    #submenu a { font-weight: bold; color: #000; letter-spacing: 0.02em; }
 
 
 /*  BANNER  */
@@ -49,7 +45,7 @@
     #content { background: #fff; position: relative; }
 
         /* Frequently Used */
-        .h1 { margin: 3px 0 0 0; padding: 8px 10px; font-size: 14px; font-weight: bold; text-transform: uppercase; line-height: 22px; color: #fff; }
+        .h1 { margin: 3px 0 0 0; padding: 8px 18px; font-size: 16px; font-weight: bold; text-transform: uppercase; line-height: 22px; color: #fff; }
         .h1 a { color: #fff; font-weight: bold; }
         .comment,
         .listing { min-height: 45px; border-bottom: 1px solid #d4d4d4; }
@@ -58,8 +54,8 @@
         .poll .fields .h2,
         .detail .h2,
         .flat .h2,
-        .comment .h3 { font-size: 14px; line-height: 16px; }
-        .pagination { background: #eeeeee; padding: 10px; }
+        .comment .h3 { font-size: 16px; line-height: 16px; }
+        .pagination { background: #eeeeee; padding: 8px 18px; }
         .auth form .btns input,
         .auth form .btns a,
         .poll .btns input,
@@ -72,16 +68,15 @@
 
         /* Articles */
         .articles { padding: 0; margin: 0 0 3px 0; }
-        .articles .h1 { background: #ea178b; }
-            .articles .listing { padding: 10px 44px 10px 10px; }
-                .articles .listing img { width: 45px; float: left; display: block; }
-                .articles .listing .h2 { margin: 0 0 0 57px; padding: 0; color: #eb178e;  }
-                .articles .listing .h2 a { color: #eb178e; }
-                .articles .listing p { margin: 0 0 0 57px; padding: 2px 0 0 0; color: #888888; }
-                .articles .pagination a { font-weight: bold; color: #c71663; }
+        .articles .h1 { background: #000; }
+            .articles .listing { padding: 13px 18px; }
+                .articles .listing img { width: 45px; float: left; margin: 0 18px 0 0; display: block; }
+                .articles .listing .h2 { margin: 0; padding: 0; color: #000;  }
+                .articles .listing .h2 a { color: #000; }
+                .articles .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
+                .articles .pagination a { font-weight: bold; color: #000; }
                 .articles .no-pic .h2, .articles .no-pic p { margin-left: 0; }
-            .articles .detail { padding: 10px; }
-                .articles .detail .no-pic .h2, .articles .no-pic .meta { margin-left: 0; }
+            .articles .detail { padding: 13px 18px; }
                 .articles .detail pre {
                     word-break: break-all; /* webkit */
                     word-wrap: break-word;
@@ -90,18 +85,20 @@
                     white-space: pre-wrap;
                     white-space: pre\9; /* IE7+ */
                 }
+                .articles .detail img { width: 100%; margin: 14px 0; display: block; }
+                .articles .detail .date { font-size: 13px; text-transform: uppercase; color: #bbb; }
 
         /* Latest */
         .latest{}
-            .latest .h1{ background: #ff9933; }
-            .latest .listing .h2 a { color: #ff9933; }
+            .latest .h1{ background: #000; }
+            .latest .listing .h2 a { color: #000; }
 
         /* Head (used on Articles, Hope City, Stories, etc) */
 
         .head {}
-            .head .h2 { margin: 0 0 0 65px; font-size: 20px; line-height: 22px; }
+            .head .h2 { margin: 0; font-size: 22px; line-height: 28px; font-weight: bold; }
             .head .img img { width: 45px; float: left; margin: 0 17px 0 0; display: block; }
-            .head .meta { margin: 3px 0 0 65px; }
+            .head .meta { margin: 3px 0 0 0; }
             .head .no-pic {margin-left: 0}
 
         /* Challenge */
@@ -109,7 +106,7 @@
         .challenge .h1 { background: #e31f26; }
             .challenge .listing { padding: 25px; background: #ea178b; border: 0; }
                 .challenge .listing img { width: 50px; float: left; display: block; }
-                .challenge .listing .h2 { margin: 0 0 0 75px; padding: 0; color: #fff;  }
+                .challenge .listing .h2 { margin: 0; padding: 0; color: #fff;  }
                 .challenge .listing .h2 a { color: #fff; }
                 .challenge .listing .h2 a span { color: #000; }
                 .challenge .btns { padding: 7px 12px 12px 20px; }
@@ -147,10 +144,10 @@
         /* Declaration */
         .declaration { margin: 0 0 3px 0; }
         .declaration .h1 { background: #39c0c0; }
-            .declaration .listing { padding: 10px 44px 10px 10px; }
-                .declaration .listing img { width: 45px; float: left; display: block; }
+            .declaration .listing { padding: 13px 16px; }
+                .declaration .listing img { width: 50px; float: left; margin: 0 18px 0 0; display: block; }
                 .declaration .listing .h2 { margin: 0; padding: 0; color: #39c0c0;  }
-                .declaration .listing .h2 a { color: #39c0c0; padding: 0 0 0 5px;}
+                .declaration .listing .h2 a { color: #39c0c0; padding: 0;}
                 .declaration .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
                 .declaration .pagination a { font-weight: bold; color: #39c0c0; }
             .declaration .detail { padding: 10px; }
@@ -159,11 +156,11 @@
         .what { margin: 0 0 3px 0; }
         .what .h1 { background: #c4d131; }
         .what .h1 a { color: #000; }
-            .what .listing { padding: 10px 44px 10px 10px; }
-                .what .listing img { width: 45px; float: left; display: block; }
+            .what .listing { padding: 13px 18px; }
+                .what .listing img { width: 50px; float: left; margin: 0 18px 0 0; display: block; }
                 .what .listing .h2 { margin: 0; padding: 0; color: #c4d131;  }
-                .what .listing .h2 a { color: #c4d131; padding: 0 0 0 5px;}
-                .what .listing p { margin: 0; padding: 2px 0 0 5px; color: #888888; }
+                .what .listing .h2 a { color: #c4d131; padding: 0;}
+                .what .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
                 .what .pagination { color: #888888; }
                 .what .pagination a { font-weight: bold; color: #20b7ac; }
             .what .detail { padding: 10px; }
@@ -180,7 +177,7 @@
                 .results .h3 { font-size: 13px; text-transform: uppercase; }
                 .results .answer { margin: 5px 0 15px 0; padding: 4px 8px 2px 8px; background: #b00e6f; display: inline-block; font-size: 12px; color: #fff; }
             .poll .listing { padding: 12px; }
-                .poll .listing img { width: 45px; float: left; display: block; }
+                .poll .listing img { width: 50px; float: left; margin: 0 10px 0 0; display: block; }
                 .poll .listing .h2 { margin: 0; padding: 0; color: #eb178e;  }
                 .poll .listing .h2 a { color: #eb178e; }
                 .poll .listing p { margin: 0; font-size: 12px; text-transform: uppercase; line-height: 20px; color: #363636; }
@@ -236,7 +233,7 @@
             .auth form .btns a { float: right; margin: 0; }
 
         /* Comments */
-        .comment { min-height: 85px; padding: 10px; }
+        .comment { min-height: 85px; padding: 13px 18px; }
         .comment:last-of-type { border: 0; }
             .comment img { width: 45px; float: left; display: block; }
             .comment .h3 { margin: 0 0 0 57px; font-size: 14px; }
@@ -258,6 +255,9 @@
 
         .fb { width: 25px; height: 25px; margin: 0 5px 0 0; background: url('../img/fb.png') no-repeat; display: inline-block; }
         .tw { width: 25px; height: 25px; margin: 0 5px 0 0; background: url('../img/tw.png') no-repeat; display: inline-block; }
+
+        /* Section Title colours */
+        .girl-heroes .head .h2 { color: #ea178b; }
 
 /*  FOOTER  */
 
@@ -284,14 +284,14 @@
     {
 
         /* header */
-        #header a.logo { background: url('../img/logo_x2.png') no-repeat; background-size: 197px 46px; }
+        /*#header a.logo { background: url('../img/logo_x2.png') no-repeat; background-size: 197px 46px; }*/
 
     }
 
 
-/* Mobile "preview" for large screens */
+/* PREVIEW: Mobile "preview" for large screens */
 
-    @media screen and (min-width: 1024px) { 
+    @media screen and (min-width: 1024px) {
         html {
             background-color: #333;
         }
