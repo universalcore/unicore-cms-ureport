@@ -9,5 +9,10 @@ To use this repo as a base for your new app, do the following::
   $ git fetch skeleton
   $ git merge skeleton/develop
 
-You then need to rename all the instances where ``skeleton`` is used. 
+You then need to rename all the instances where ``skeleton`` is used.
 ``git grep skeleton`` should help you find all the mentions
+
+To run the tests::
+
+  $ pip install -r requirements-dev.txt
+  $ ./run_tests.sh
