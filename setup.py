@@ -25,10 +25,10 @@ setup(name='unicore-cms-skeleton',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="unicorecmsapp",
+      test_suite="unicorecmsskeleton",
       entry_points="""\
       [paste.app_factory]
-      main = unicorecmsapp:main
+      main = unicorecmsskeleton:main
       """,
       message_extractors={'.': [
       ('**.py', 'python', None),
