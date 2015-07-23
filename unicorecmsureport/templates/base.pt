@@ -33,11 +33,14 @@
             </div>
         </div>
 
-        <div class="h1 site-title" i18n:translate="">U Report</div>
+        <div class="h1 site-title">
+            <div><a href="${request.route_url('home')}" i18n:translate="">U Report</a></div>
+        </div>
 
     </div>
 
-    <div id="content" metal:define-slot="content">
+    <div id="content">
+        <div metal:define-slot="content"></div>
     </div>
 
     <div id="footer">
