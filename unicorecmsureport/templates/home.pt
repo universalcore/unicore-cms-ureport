@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="more listing" tal:condition="len(category_pages) > 3" i18n:translate="">
-                    More <span i18n:name="category_title_link" tal:replace="structure '<a href=&quot;%s&quot;>%s</a>' % (request.route_url('category', category=category.uuid), category.title)" />
+                    <a href="${request.route_url('category', category=category.uuid)}" i18n:translate="">Read more stories</a>
                 </div>
             </div>
         </div>

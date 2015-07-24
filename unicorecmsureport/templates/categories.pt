@@ -3,11 +3,9 @@
      i18n:domain="unicorecmsureport">
     <div metal:fill-slot="content">
 
-        <div tal:repeat="category view.get_categories()" tal:omit-tag="">
-            <div class="h1">
-                <div class="detail">
-                    <a href="${request.route_url('category', category=category.uuid)}">${category.title}</a>
-                </div>
+        <div class="articles">
+            <div class="more" tal:repeat="category view.get_categories()">
+                <a href="${request.route_url('category', category=category.uuid)}">${category.title}</a>
             </div>
         </div>
 

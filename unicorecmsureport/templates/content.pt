@@ -5,10 +5,8 @@
 
         <div class="articles">
 
-            <div class="h1" tal:condition="primary_category">
-                <div class="back">
-                    <a href="${request.route_url('category', category=primary_category.uuid)}">${primary_category.title}</a>
-                </div>
+            <div class="back" tal:condition="primary_category">
+                <a href="${request.route_url('category', category=primary_category.uuid)}">${primary_category.title}</a>
             </div>
 
             <div class="article" tal:define="has_image page.image_host and page.image">
